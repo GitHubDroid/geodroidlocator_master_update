@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_toLeftOf="@+id/numberSpinner"
-        android:layout_below="@+id/straatnaamTextView"
+        android:layout_below="@+id/streetnameTextView"
         android:layout_marginTop="15dip"
         android:text=""
         android:textSize="20dip" >
@@ -44,23 +44,23 @@
         android:layout_alignTop="@+id/streetNameTextField" />
 
     <TextView
-        android:id="@+id/straatnaamTextView"
+        android:id="@+id/streetnameTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="16dp"
-        android:text="Straatnaam"
+        android:text="StreetName"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
-        android:id="@+id/huisNummerTextView"
+        android:id="@+id/houseNumberTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/straatnaamTextView"
-        android:layout_alignBottom="@+id/straatnaamTextView"
+        android:layout_alignBaseline="@+id/streetnameTextView"
+        android:layout_alignBottom="@+id/streetnameTextView"
         android:layout_alignParentRight="true"
-        android:text="Huisnummer"
+        android:text="Housenumber"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
 </RelativeLayout>
